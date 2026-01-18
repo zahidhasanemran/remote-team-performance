@@ -3,7 +3,7 @@ import { painPoints } from "@/components/landing/content/painpoints"
 
 const PainSolution = () => {
   return (
-    <section className="py-20 sm:py-28   ">
+    <section className="py-20 sm:py-28 bg-secondary ">
       <div className="container">
         <div
           className="text-center mb-16"
@@ -20,7 +20,7 @@ const PainSolution = () => {
           {painPoints.map((point) => (
             <div
               key={point.pain}
-              className="card-elevated p-6"
+              className="bg-white rounded-sm p-6"
             >
               <div className="flex flex-col h-full">
                 {/* Pain section */}
@@ -28,9 +28,7 @@ const PainSolution = () => {
                   <div className={`w-10 h-10 rounded-xl flex items-center justify-center mb-4 ${point.color} bg-current/10`}>
                     <point.icon className={`w-5 h-5 ${point.color}`} />
                   </div>
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs font-medium uppercase tracking-wider text-muted-foreground">The problem</span>
-                  </div>
+
                   <p className="text-lg font-semibold text-foreground">
                     {point.pain}
                   </p>
@@ -38,9 +36,9 @@ const PainSolution = () => {
 
                 {/* Divider with arrow */}
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="h-px flex-1 bg-border" />
+                  <div className="h-px flex-1 border border-secondary" />
                   <TrendingUp className="w-4 h-4 text-primary" />
-                  <div className="h-px flex-1 bg-border" />
+                  <div className="h-px flex-1 border border-secondary" />
                 </div>
 
                 {/* Solution section */}

@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
 *{
-  margin: 0;
-  list-style: none;
   box-sizing: border-box;
 }
 
@@ -16,6 +14,7 @@ body {
   --background: #ffffff;
   --foreground: #171717;
   --brand-primary: #29a399;
+  --secondary: #f3f4f6;
 
   /* Core backgrounds - warm cream tones */
   --background: 40 33% 98%;
@@ -88,8 +87,8 @@ body {
   --color-status-warning: #f59e0b;
   --color-status-overload: #ef4444;
   --color-status-underload: #3b82f6;
-  --secondary: 220 14% 96%;
-  --secondary-foreground: 220 20% 25%;
+  --color-secondary: #f3f4f6;
+  --color-secondary-foreground: 220 20% 25%;
 
 
   --font-sans: var(--font-geist-sans);
