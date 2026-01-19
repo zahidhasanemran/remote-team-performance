@@ -14,13 +14,9 @@ const Hero = () => {
 
           <div className="section-container">
             <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
-              {/* Left content */}
-              <div
 
-                className="text-center lg:text-left"
-              >
+              <div className="px-4 md:px-0 text-center lg:text-left" >
                 <div
-
                   className="inline-flex items-center gap-2 px-3 py-1.5 mb-6 text-sm font-medium rounded-full bg-accent text-accent-foreground border border-brand-primary/10"
                 >
                   <span className="relative flex h-2 w-2">
@@ -30,12 +26,12 @@ const Hero = () => {
                   Built for remote-first teams
                 </div>
 
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-[1.1] mb-6!">
+                <h1 className="text-3xl sm:text-4xl 2xl:text-6xl font-bold tracking-tight text-foreground leading-[1.1] mb-6!">
                   Know who&apos;s overloaded{" "}
                   <span className="gradient-text">before burnout happens</span>
                 </h1>
 
-                <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8! leading-relaxed">
+                <p className="text-md sm:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8! leading-relaxed">
                   Visual workload intelligence for remote teams. No spying. No micromanagement.
                   Just clear visibility into who needs support.
                 </p>
@@ -69,10 +65,9 @@ const Hero = () => {
                 </div>
               </div>
 
-              {/* Right - Dashboard mockup */}
-              <div
 
-                className="relative"
+              <div
+                className="relative px-5 lg:px-0"
               >
                 <HeroWorkloadDashboard />
               </div>

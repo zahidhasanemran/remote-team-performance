@@ -6,12 +6,12 @@ const PainSolution = () => {
     <section className="py-20 sm:py-28 bg-secondary ">
       <div className="container">
         <div
-          className="text-center mb-16"
+          className="px-4 md:px-0  text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
             Remote work visibility shouldn&apos;t be this hard
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-md lg:text-lg text-muted-foreground max-w-2xl mx-auto">
             Most managers fly blind until someone burns out. There&apos;s a better way.
           </p>
         </div>
@@ -23,7 +23,7 @@ const PainSolution = () => {
               className="bg-white rounded-sm p-6"
             >
               <div className="flex flex-col h-full">
-                {/* Pain section */}
+
                 <div className="mb-6">
                   <div className={`w-10 h-10 rounded-xl flex items-center justify-center mb-4 ${point.color} bg-current/10`}>
                     <point.icon className={`w-5 h-5 ${point.color}`} />
@@ -34,14 +34,14 @@ const PainSolution = () => {
                   </p>
                 </div>
 
-                {/* Divider with arrow */}
+
                 <div className="flex items-center gap-3 mb-6">
                   <div className="h-px flex-1 border border-secondary" />
                   <TrendingUp className="w-4 h-4 text-primary" />
                   <div className="h-px flex-1 border border-secondary" />
                 </div>
 
-                {/* Solution section */}
+
                 <div>
                   <div className="flex items-center gap-2 mb-2">
                     <CheckCircle2 className="w-4 h-4 text-status-healthy" />

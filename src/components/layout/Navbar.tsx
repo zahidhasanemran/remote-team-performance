@@ -3,7 +3,7 @@ import AppButton from "@/components/ui/AppButton"
 
 const Navbar = () => {
   return (
-    <section className="w-full fixed bg-white/30 backdrop-blur-sm z-50">
+    <header className="w-full fixed bg-white/30 backdrop-blur-sm z-50">
       <div className="container">
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -32,7 +32,7 @@ const Navbar = () => {
           </ul>
         </nav>
       </div>
-    </section>
+    </header>
   )
 }
 
