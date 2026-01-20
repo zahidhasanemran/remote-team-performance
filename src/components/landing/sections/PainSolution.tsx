@@ -1,5 +1,5 @@
 import { TrendingUp, CheckCircle2 } from "lucide-react"
-import { painPoints } from "@/components/landing/content/painpoints"
+import { painPoints } from "@/components/landing/constants/painpoints"
 
 const PainSolution = () => {
   return (

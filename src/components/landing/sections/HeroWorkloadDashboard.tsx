@@ -1,5 +1,5 @@
 import { TrendingUp, Clock, Users } from "lucide-react"
-import { teamMembers, STATUS_STYLES } from "@/components/landing/content/workload"
+import { teamMembers, STATUS_STYLES } from "@/components/landing/constants/workload"
 
 const HeroWorkloadDashboard = () => {
   return (

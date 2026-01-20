@@ -1,5 +1,5 @@
 import Link from "next/link"
-import AppButton from "@/components/ui/AppButton"
+import AppButton from "@/components/ui/app-button"
 
 const Navbar = () => {
   return (

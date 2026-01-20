@@ -1,4 +1,4 @@
-import AppButton from "@/components/ui/AppButton"
+import AppButton from "@/components/ui/app-button"
 import HeroWorkloadDashboard from "@/components/landing/sections/HeroWorkloadDashboard"
 
 const Hero = () => {
@@ -37,7 +37,7 @@ const Hero = () => {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                  <AppButton link="/demo" label="View Demo">
+                  <AppButton link="/dashboard" label="View Demo">
 
                   </AppButton>
                   <AppButton

@@ -1,4 +1,4 @@
-import { features } from "@/components/landing/content/features"
+import { features } from "@/components/landing/constants/features"
 
 
 const Features = () => {

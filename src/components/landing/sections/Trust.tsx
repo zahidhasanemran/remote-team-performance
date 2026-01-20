@@ -1,4 +1,4 @@
-import { trustPoints } from "../content/truest"
+import { trustPoints } from "../constants/trust"
 
 
 const Trust = () => {

@@ -14,6 +14,8 @@ body {
   --background: #ffffff;
   --foreground: #171717;
   --brand-primary: #29a399;
+  --dashboard-sidebar-surface: #fafafa;
+  --dashboard-content-surface: #fcfaf8;
 
   /* Core backgrounds - warm cream tones */
   --background: 40 33% 98%;
@@ -82,6 +84,11 @@ body {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-brand-primary: var(--brand-primary);
+  --color-dashboard-sidebar-surface: var(--dashboard-sidebar-surface);
+  --color-dashboard-content-surface: var(--dashboard-content-surface);
+  --color-text-foreground: #212631;
+  --color-text-muted-foreground: #6a7181;
+
   --color-status-healthy: #22c55e;
   --color-status-warning: #f59e0b;
   --color-status-overload: #ef4444;

@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react"
-import { steps } from "@/components/landing/content/howitworks"
+import { steps } from "@/components/landing/constants/howitworks"
 
 const HowItWorks = () => {
   return (

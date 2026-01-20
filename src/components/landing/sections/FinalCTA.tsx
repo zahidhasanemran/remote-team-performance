@@ -1,4 +1,4 @@
-import AppButton from "@/components/ui/AppButton"
+import AppButton from "@/components/ui/app-button"
 
 const FinalCTA = () => {
   return (
@@ -26,7 +26,7 @@ const FinalCTA = () => {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <AppButton
-                  link="/demo"
+                  link="/dashboard"
                   label="Try Demo"
                 />
 
