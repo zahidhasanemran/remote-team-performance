@@ -1,0 +1,1 @@
+export type WorkloadStatusType = "healthy" | "warning" | "overload" | "underload"

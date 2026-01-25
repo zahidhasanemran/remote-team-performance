@@ -8,13 +8,16 @@ import { cn } from "@/lib/utils"
 
 interface HeadingProps {
   children: React.ReactNode,
-  as?: "h1" | "h2" | "h3" | "h4"
+  as?: "h1" | "h2" | "h3" | "h4" | "h5"
   className?: string
 }
 
 const variants = {
   h1: "text-xl lg:text-2xl font-semibold text-foreground",
-  h2: "text-md lg:text-xl font-semibold text-foreground"
+  h2: "text-lg lg:text-xl font-semibold text-foreground",
+  h3: "text-md lg:text-lg font-semibold text-foreground",
+  h4: "text-sm lg:text-md font-semibold text-foreground",
+  h5: "text-xs lg:text-sm font-semibold text-foreground",
 }
 
 

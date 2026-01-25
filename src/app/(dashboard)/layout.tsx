@@ -24,8 +24,8 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
           <PanelLeft onClick={() => setSidebarHidden(!sidebarHidden)} />
           <DashboardHeader />
         </div>
-        <div className="content p-5 pt-12 bg-secondary-light min-h-screen ">
-          {(sidebarHidden).toString()}
+        <div className="content p-6 pt-22 bg-secondary-light min-h-screen ">
+          {/* {(sidebarHidden).toString()} */}
           {children}
         </div>
       </div>

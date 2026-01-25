@@ -26,10 +26,10 @@ const PainSolution = () => {
 
                 <div className="mb-6">
                   <div className={`w-10 h-10 rounded-xl flex items-center justify-center mb-4 ${point.color} bg-current/10`}>
-                    <point.icon className={`w-5 h-5 ${point.color}`} />
+                    <point.icon className={`w-6 h-6 ${point.color}`} />
                   </div>
 
-                  <p className="text-lg font-semibold text-foreground">
+                  <p className="text-lg font-medium mb-0 text-foreground">
                     {point.pain}
                   </p>
                 </div>

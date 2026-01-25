@@ -1,7 +1,6 @@
 /**
- * 
-Used by UI & backend
-Central source of truth
+ * Used by UI & backend
+ * Central source of truth
  */
 
 

@@ -31,7 +31,7 @@ const Features = () => {
                   <div className={`w-12 h-12 rounded-xl mb-5 flex items-center justify-center bg-linear-to-br ${feature.color}`}>
                     <feature.icon className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-lg font-semibold text-foreground mb-2">
+                  <h3 className="text-lg font-medium text-foreground mb-2">
                     {feature.title}
                   </h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">

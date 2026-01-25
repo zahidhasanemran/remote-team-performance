@@ -87,7 +87,7 @@ body {
   --color-dashboard-sidebar-surface: var(--dashboard-sidebar-surface);
   --color-dashboard-content-surface: var(--dashboard-content-surface);
   --color-text-foreground: #212631;
-  --color-text-muted-foreground: #6a7181;
+  --color-muted-foreground: #6a7181;
 
   --color-status-healthy: #22c55e;
   --color-status-warning: #f59e0b;

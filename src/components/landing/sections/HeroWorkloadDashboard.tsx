@@ -1,5 +1,6 @@
 import { TrendingUp, Clock, Users } from "lucide-react"
-import { teamMembers, STATUS_STYLES } from "@/components/landing/constants/workload"
+import { teamMembers, STATUS_STYLES } from "@/lib/constants"
+import { cn } from "@/lib/utils"
 
 const HeroWorkloadDashboard = () => {
   return (
@@ -54,7 +55,7 @@ const HeroWorkloadDashboard = () => {
 
         {/* Team members list */}
         <div className="divide-y divide-status-healthy">
-          {teamMembers.map((member, index) => (
+          {teamMembers.map((member) => (
             <div
               key={member.name}
 
@@ -62,7 +63,7 @@ const HeroWorkloadDashboard = () => {
             >
               <div className="flex items-center gap-3">
                 {/* Avatar */}
-                <div className={`w-9 h-9 rounded-full flex items-center justify-center text-xs font-medium ${STATUS_STYLES[member.status].bg}`}>
+                <div className={cn("w-9 h-9 rounded-full flex items-center justify-center text-xs font-medium", STATUS_STYLES[member?.status].bg)}>
                   <span className="text-foreground">{member.avatar}</span>
                 </div>
 
@@ -77,10 +78,10 @@ const HeroWorkloadDashboard = () => {
                   </div>
 
                   {/* Workload bar */}
-                  <div className=" mt-1! h-2 bg-muted rounded-full overflow-hidden">
+                  <div className="mt-1 h-2 bg-secondary rounded-full overflow-hidden">
                     <div
-
-                      className={`h-full rounded-full ${STATUS_STYLES[member.status].dot}`}
+                      style={{ width: `${member?.workload}%` }}
+                      className={`h-full rounded-full transition-all duration-300 ${STATUS_STYLES[member.status].dot}`}
                     />
                   </div>
                 </div>

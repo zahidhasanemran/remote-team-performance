@@ -3,7 +3,7 @@ import AppButton from "@/components/ui/app-button"
 
 const Navbar = () => {
   return (
-    <header className="w-full fixed bg-white/30 backdrop-blur-sm z-50">
+    <header className="w-full fixed bg-white/30 backdrop-blur-sm z-50 py-5 ">
       <div className="container">
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-2">

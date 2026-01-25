@@ -9,5 +9,5 @@ Used by API client
 */
 
 export function getAuthToken() {
-  // return cookies().get('token')?.value
+ return ""
 }

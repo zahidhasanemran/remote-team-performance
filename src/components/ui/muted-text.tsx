@@ -1,5 +1,6 @@
 /**
  * Paragraph for the Dashboard specially
+ * @params variants "lg" | "md" | "sm" | "xs"
  * @return p tag
  * @example <MutedText>Dashboard</MutedText>
  */
@@ -7,9 +8,9 @@
 import { cn } from "@/lib/utils"
 
 interface MutedTextProps {
-  text: string,
+  label: string,
   variants?: "lg" | "md" | "sm" | "xs"
-  className?: ""
+  className?: string
 }
 
 const variantClasses = {
@@ -19,10 +20,10 @@ const variantClasses = {
   xs: "text-xs text-muted-foreground"
 }
 
-const MutedText = ({ text, variants = "lg", className }: MutedTextProps) => {
+const MutedText = ({ label, variants = "lg", className }: MutedTextProps) => {
   return (
     <p className={cn(variantClasses[variants], className)}>
-      {text}
+      {label}
     </p>
   )
 }
