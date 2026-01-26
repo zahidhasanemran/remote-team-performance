@@ -1,5 +1,7 @@
 import { Task } from "@/types/task"
 import { TaskCard } from "@/components/ui/task-card"
+import SectionHeader from "@/components/ui/section-header"
+import { Calendar } from "lucide-react"
 
 const tasks: Task[] = [
   {
@@ -71,8 +73,15 @@ const tasks: Task[] = [
 
 const UpcommingTaskList = ({ }) => {
   return (
-    <div className="my-3 bg-white">
-      <div className="py-5 px-5 rounded-lg">
+    <div className="my-3 bg-white rounded-lg">
+      <div className="py-5 px-5 ">
+        <div className="mb-3 pt-3 pb-5">
+          <SectionHeader
+            icon={<Calendar className="w-6 h-6 text-brand-primary" />}
+            title="Tasks Due This Week"
+            badge={<span className="text-xs">5 tasks</span>}
+          />
+        </div>
         {tasks?.map((task) => {
           return (
             <TaskCard status={task?.assignee?.status} key={task?.id} className="mb-3">

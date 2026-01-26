@@ -9,6 +9,7 @@ interface StatusCard {
   bgColor: string;
 }
 
+
 export const workloadsummary = [
   {
     id: 1,

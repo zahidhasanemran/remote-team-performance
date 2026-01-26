@@ -1,3 +1,4 @@
+import AlertLists from '@/components/dashboard/alert-lists'
 import UpcommingTaskList from '@/components/dashboard/upcoming-tasks-list'
 import WorkloadBoard from '@/components/dashboard/workload-board'
 import WorkloadSummary from '@/components/dashboard/workload-summary'
@@ -16,6 +17,9 @@ const Dashboard = () => {
         <div className="flex gap-6">
           <div className="w-1/2">
             <UpcommingTaskList />
+          </div>
+          <div className="w-1/2">
+            <AlertLists />
           </div>
         </div>
       </section>
